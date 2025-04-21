@@ -1,0 +1,24 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+.terraform/
+crash.log
+crash.*.log
+
+# Terraform variable overrides
+*.tfvars
+*.tfvars.json
+
+# Local Terraform configuration
+.terraform.lock.hcl
+terraform.tfplan
+
+# Ignore backup and temp files
+*~
+*.bak
+*.tmp
+*.swp
+.DS_Store
+
+# Kube config (optional, depending on how you manage it)
+.kube/
